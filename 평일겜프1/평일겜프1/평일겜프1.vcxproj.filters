@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\01_출력">
+      <UniqueIdentifier>{b5c6ec96-da0f-4f8e-bc0e-255a17f2b459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02_변수와자료형">
+      <UniqueIdentifier>{fa943418-7c18-4990-882c-76d1f681f6bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02_변수와자료형\01_기본자료형">
+      <UniqueIdentifier>{2b90f607-1f47-499f-a141-facb3c5503fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03_입력">
+      <UniqueIdentifier>{3759cd06-d2a1-4e50-be55-dd022be2739e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04_상수">
+      <UniqueIdentifier>{8826e41e-8dd1-4441-958c-2e1607d820d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04_상수\01_상수">
+      <UniqueIdentifier>{70685d11-61b3-4e4b-b206-d693c80431e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\문제">
+      <UniqueIdentifier>{33e2552e-1f58-4de0-ae95-438f30da25a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05_연산자">
+      <UniqueIdentifier>{14bc7dd0-a473-4d0b-a6ec-e4e17e7c3f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06_분기문">
+      <UniqueIdentifier>{98b62880-b593-423e-be2f-a4db9a3f6d18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06_분기문\01_IF문">
+      <UniqueIdentifier>{dd722760-b2a5-4b16-9959-151bd9d512e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06_분기문\02_While문">
+      <UniqueIdentifier>{290ea66a-e0a9-4952-a05f-2dd659d51216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\숙제">
+      <UniqueIdentifier>{3f4fcf2e-895a-4a23-9a7c-6af88b850b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\07_반복문">
+      <UniqueIdentifier>{ef4ce09a-94ac-4227-99a3-b793b838d86c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\07_반복문\01_while">
+      <UniqueIdentifier>{dcaed0fd-1af6-4e5a-bbb0-6a9d113e4164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\07_반복문\02_for">
+      <UniqueIdentifier>{b7cd4143-bfe1-4b68-a8a3-cc50e0607ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\08_점프문">
+      <UniqueIdentifier>{8aeec105-ddf1-4c54-8ab3-dcca6c2a426d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09_함수">
+      <UniqueIdentifier>{d1b0548b-151b-48e4-8317-0944ef34300f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10_헤더파일">
+      <UniqueIdentifier>{4dcf18e0-37a4-44bf-96a4-5bc6f3bd7aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10_헤더파일\01_헤더파일">
+      <UniqueIdentifier>{43834f6a-ed25-4b0b-9071-6bfac65326b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11_배열">
+      <UniqueIdentifier>{453a165e-8acd-472c-829e-6ac84053a3f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11_배열\01_배열">
+      <UniqueIdentifier>{92acd714-6a5b-4414-bdce-acfdfccc87ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11_배열\02_문자열배열">
+      <UniqueIdentifier>{ca8ef76b-1566-4914-a02d-195d1cc75cbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11_배열\03_다차원비열">
+      <UniqueIdentifier>{3c651e45-9290-42c2-beab-6fd11624123c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\12_구조체">
+      <UniqueIdentifier>{775f6605-e4da-4193-b0d2-b5ceb18cafb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\13_전처리지시자">
+      <UniqueIdentifier>{4f12db03-ac2a-43fd-ad95-d966d6d4e0b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\14_포인터">
+      <UniqueIdentifier>{23f5f78f-9cd2-4e7d-b771-95d637bce4e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\14_포인터\01_포인터">
+      <UniqueIdentifier>{b34e4205-2c39-4181-bee5-0373777bf09b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\14_포인터\02_포인터배열">
+      <UniqueIdentifier>{6ec468b7-f527-4874-8d2c-731d1b9dcdd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\14_포인터\03_포인터매개변수">
+      <UniqueIdentifier>{964d0925-7868-4baa-889e-2f24eb105c34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\14_포인터\04_구조체포인터">
+      <UniqueIdentifier>{b207a18c-d81a-4070-91f8-e361c1daa60f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\14_포인터\05_동적할당">
+      <UniqueIdentifier>{4a2e0515-2db4-44da-94c3-bc391e913900}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\14_포인터\06_다중포인터">
+      <UniqueIdentifier>{1e499ee7-08be-490c-89e6-a82c7b389f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\14_포인터\07_함수포인터">
+      <UniqueIdentifier>{269492f1-6b8e-4b4c-a06e-994470b0517e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="01_출력.c">
+      <Filter>소스 파일\01_출력</Filter>
+    </ClCompile>
+    <ClCompile Include="02_출력.c">
+      <Filter>소스 파일\01_출력</Filter>
+    </ClCompile>
+    <ClCompile Include="03_서식지정자.c">
+      <Filter>소스 파일\01_출력</Filter>
+    </ClCompile>
+    <ClCompile Include="01_출력_숙제.c">
+      <Filter>소스 파일\01_출력</Filter>
+    </ClCompile>
+    <ClCompile Include="01_기본자료형.c">
+      <Filter>소스 파일\02_변수와자료형\01_기본자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="02_변수.c">
+      <Filter>소스 파일\02_변수와자료형\01_기본자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="01_입력.c">
+      <Filter>소스 파일\03_입력</Filter>
+    </ClCompile>
+    <ClCompile Include="01_상수.c">
+      <Filter>소스 파일\04_상수\01_상수</Filter>
+    </ClCompile>
+    <ClCompile Include="01_상수_문제.c">
+      <Filter>소스 파일\04_상수\01_상수</Filter>
+    </ClCompile>
+    <ClCompile Include="01_철수의성적.c">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="02_열거형.c">
+      <Filter>소스 파일\04_상수\01_상수</Filter>
+    </ClCompile>
+    <ClCompile Include="01_산술연산자.c">
+      <Filter>소스 파일\05_연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="02_단항연산자.c">
+      <Filter>소스 파일\05_연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="03_관계연산자.c">
+      <Filter>소스 파일\05_연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="04_논리연산자.c">
+      <Filter>소스 파일\05_연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="05_복합대입연산자.c">
+      <Filter>소스 파일\05_연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="01_if.c">
+      <Filter>소스 파일\06_분기문\01_IF문</Filter>
+    </ClCompile>
+    <ClCompile Include="02_ifelse.c">
+      <Filter>소스 파일\06_분기문\01_IF문</Filter>
+    </ClCompile>
+    <ClCompile Include="02_ifelse_문제.c">
+      <Filter>소스 파일\06_분기문\01_IF문</Filter>
+    </ClCompile>
+    <ClCompile Include="02_철수의합격.c">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="03_ifelseifelse.c">
+      <Filter>소스 파일\06_분기문\01_IF문</Filter>
+    </ClCompile>
+    <ClCompile Include="03_ifelseifelse_문제.c">
+      <Filter>소스 파일\06_분기문\01_IF문</Filter>
+    </ClCompile>
+    <ClCompile Include="03_철수의등급.c">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="01_switch.c">
+      <Filter>소스 파일\06_분기문\02_While문</Filter>
+    </ClCompile>
+    <ClCompile Include="02_switch.c">
+      <Filter>소스 파일\06_분기문\02_While문</Filter>
+    </ClCompile>
+    <ClCompile Include="02_ifelse_숙제.c">
+      <Filter>소스 파일\숙제</Filter>
+    </ClCompile>
+    <ClCompile Include="03_ifelseifelse_숙제.c">
+      <Filter>소스 파일\숙제</Filter>
+    </ClCompile>
+    <ClCompile Include="04_철수의최저임금.c">
+      <Filter>소스 파일\숙제</Filter>
+    </ClCompile>
+    <ClCompile Include="04_홀수짝수.c">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="01_while.c">
+      <Filter>소스 파일\07_반복문\01_while</Filter>
+    </ClCompile>
+    <ClCompile Include="02_while.c">
+      <Filter>소스 파일\07_반복문\01_while</Filter>
+    </ClCompile>
+    <ClCompile Include="02_factorial.c">
+      <Filter>소스 파일\07_반복문\01_while</Filter>
+    </ClCompile>
+    <ClCompile Include="05_구구단.c">
+      <Filter>소스 파일\숙제</Filter>
+    </ClCompile>
+    <ClCompile Include="01_for.c">
+      <Filter>소스 파일\07_반복문\02_for</Filter>
+    </ClCompile>
+    <ClCompile Include="06_유클리드호제법.c">
+      <Filter>소스 파일\숙제</Filter>
+    </ClCompile>
+    <ClCompile Include="05_for문연습.c">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="07_RPG.c">
+      <Filter>소스 파일\숙제</Filter>
+    </ClCompile>
+    <ClCompile Include="06_구구단.c">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="07_유클리드호제법.c">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="01_점프문.c">
+      <Filter>소스 파일\08_점프문</Filter>
+    </ClCompile>
+    <ClCompile Include="08_별찍기.c">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="01_함수.c">
+      <Filter>소스 파일\09_함수</Filter>
+    </ClCompile>
+    <ClCompile Include="06_삼항연산자.c">
+      <Filter>소스 파일\05_연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="02_함수.c">
+      <Filter>소스 파일\09_함수</Filter>
+    </ClCompile>
+    <ClCompile Include="03_함수.c">
+      <Filter>소스 파일\09_함수</Filter>
+    </ClCompile>
+    <ClCompile Include="04_함수.c">
+      <Filter>소스 파일\09_함수</Filter>
+    </ClCompile>
+    <ClCompile Include="키미노나이와.c">
+      <Filter>소스 파일\숙제</Filter>
+    </ClCompile>
+    <ClCompile Include="09_나이.c">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="01_Main.c">
+      <Filter>소스 파일\10_헤더파일\01_헤더파일</Filter>
+    </ClCompile>
+    <ClCompile Include="01_배열.c">
+      <Filter>소스 파일\11_배열\01_배열</Filter>
+    </ClCompile>
+    <ClCompile Include="02_배열.c">
+      <Filter>소스 파일\11_배열\01_배열</Filter>
+    </ClCompile>
+    <ClCompile Include="03_배열.c">
+      <Filter>소스 파일\11_배열\01_배열</Filter>
+    </ClCompile>
+    <ClCompile Include="08_붸열.c">
+      <Filter>소스 파일\숙제</Filter>
+    </ClCompile>
+    <ClCompile Include="01_문자열배열.c">
+      <Filter>소스 파일\11_배열\02_문자열배열</Filter>
+    </ClCompile>
+    <ClCompile Include="02_문자열배열.c">
+      <Filter>소스 파일\11_배열\02_문자열배열</Filter>
+    </ClCompile>
+    <ClCompile Include="03_문자열배열.c">
+      <Filter>소스 파일\11_배열\02_문자열배열</Filter>
+    </ClCompile>
+    <ClCompile Include="01_다차원배열.c">
+      <Filter>소스 파일\11_배열\03_다차원비열</Filter>
+    </ClCompile>
+    <ClCompile Include="09_다차원붸열.c">
+      <Filter>소스 파일\숙제</Filter>
+    </ClCompile>
+    <ClCompile Include="다차원배열.c">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="01_구조체.c">
+      <Filter>소스 파일\12_구조체</Filter>
+    </ClCompile>
+    <ClCompile Include="02_구조체.c">
+      <Filter>소스 파일\12_구조체</Filter>
+    </ClCompile>
+    <ClCompile Include="02_구조체_문제.c">
+      <Filter>소스 파일\12_구조체</Filter>
+    </ClCompile>
+    <ClCompile Include="11_확률조작논란.c">
+      <Filter>소스 파일\숙제</Filter>
+    </ClCompile>
+    <ClCompile Include="01_전처리지시자.c">
+      <Filter>소스 파일\13_전처리지시자</Filter>
+    </ClCompile>
+    <ClCompile Include="12_Swap_포인터.c">
+      <Filter>소스 파일\숙제</Filter>
+    </ClCompile>
+    <ClCompile Include="10_Swap.c">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="05_포인터.c">
+      <Filter>소스 파일\14_포인터\01_포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="01_포인터.c">
+      <Filter>소스 파일\14_포인터\01_포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="02_포인터.c">
+      <Filter>소스 파일\14_포인터\01_포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="03_포인터.c">
+      <Filter>소스 파일\14_포인터\01_포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="04_포인터.c">
+      <Filter>소스 파일\14_포인터\01_포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="06_void포인터.c">
+      <Filter>소스 파일\14_포인터\01_포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="07_포인터.c">
+      <Filter>소스 파일\14_포인터\01_포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="01_포인터배열.c">
+      <Filter>소스 파일\14_포인터\02_포인터배열</Filter>
+    </ClCompile>
+    <ClCompile Include="01_포인터매개변수.c">
+      <Filter>소스 파일\14_포인터\03_포인터매개변수</Filter>
+    </ClCompile>
+    <ClCompile Include="02_포인터매개변수.c">
+      <Filter>소스 파일\14_포인터\03_포인터매개변수</Filter>
+    </ClCompile>
+    <ClCompile Include="01_구조체포인터.c">
+      <Filter>소스 파일\14_포인터\04_구조체포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="13_이것은문제다.c">
+      <Filter>소스 파일\숙제</Filter>
+    </ClCompile>
+    <ClCompile Include="13_그리고이것은숙제다.c">
+      <Filter>소스 파일\숙제</Filter>
+    </ClCompile>
+    <ClCompile Include="11_문자밀기.c">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="12_뒤집어라.c">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="13_가운데문자.c">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="01_동적할당.c">
+      <Filter>소스 파일\14_포인터\05_동적할당</Filter>
+    </ClCompile>
+    <ClCompile Include="01_다중포인터.c">
+      <Filter>소스 파일\14_포인터\06_다중포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="01_함수포인터.c">
+      <Filter>소스 파일\14_포인터\07_함수포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="02_함수포인터.c">
+      <Filter>소스 파일\14_포인터\07_함수포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="14_십진수를이진수로.c">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="14_십진수이진수.c">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="15_2차원상에있는두점의거리.c">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="15_거리구하기_풀이.c">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="16_ATM.c">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="17_TextRpg.c">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="01_함수선언부.h">
+      <Filter>소스 파일\10_헤더파일\01_헤더파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
