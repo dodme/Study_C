@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\01_출력">
+      <UniqueIdentifier>{5bf5155b-045c-4090-be8e-baafd99637b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02_변수와자료형">
+      <UniqueIdentifier>{ea5ea14f-c0c5-4629-b71d-d5587d9cf170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02_변수와자료형\01_기본자료형">
+      <UniqueIdentifier>{9721094d-72ba-4b12-9c22-b4de2bd753c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03_입력">
+      <UniqueIdentifier>{59ce6397-8286-4d59-9122-4e46c9eca7a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04_상수">
+      <UniqueIdentifier>{cc92d7ff-7468-4995-a8af-98ac91615b7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04_상수\01_상수">
+      <UniqueIdentifier>{1a55e762-c1ac-44a6-b411-920c76f6d5fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="01_출력_숙제.c">
+      <Filter>소스 파일\01_출력</Filter>
+    </ClCompile>
+    <ClCompile Include="01_기본자료형.c">
+      <Filter>소스 파일\02_변수와자료형\01_기본자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="02_변수.c">
+      <Filter>소스 파일\02_변수와자료형\01_기본자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="01_입력.c">
+      <Filter>소스 파일\03_입력</Filter>
+    </ClCompile>
+    <ClCompile Include="01_상수.c">
+      <Filter>소스 파일\04_상수\01_상수</Filter>
+    </ClCompile>
+    <ClCompile Include="01_상수_문제.c">
+      <Filter>소스 파일\04_상수\01_상수</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
